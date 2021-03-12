@@ -1,16 +1,19 @@
 <template>
   <div>
-    users
+    <Navbar/>
+
     <Nuxt />
   </div>
 </template>
 
-<style>
-html ,
-body{
-  background-color:darkslateblue;
+<script>
+import Navbar  from "@/components/Navbar/Navbar";
+
+export default {
+  components: {
+    Navbar,
+  }
+
 }
-h1 , h2 , h3 , h4  , h5 , h6 {
-  color:white;
-}
-</style>
+</script>
+

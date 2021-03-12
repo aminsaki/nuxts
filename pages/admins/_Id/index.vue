@@ -1,17 +1,17 @@
 <template>
-    <div class="postId">
+  <div class="postId">
 
-    </div>
+  </div>
 </template>
 <script>
-export  default {
-  props:{
-    is:Admin:{}
-  },
+export default {
+  props: {
+    isAdmin: {
+      default: false
+    }
 
-
+  }
 }
-
 
 
 </script>

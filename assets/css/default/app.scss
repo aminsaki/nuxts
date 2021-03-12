@@ -1,0 +1,20 @@
+nav {
+  ul {
+    li {
+      a:hover{
+         color:hotpink;
+         list-style-type: none;
+      }
+      a{
+        color: white;
+      }
+    }
+  }
+}
+body{
+  background-color: #dee2e6;
+}
+input::placeholder{
+  text-align: right;
+}
+

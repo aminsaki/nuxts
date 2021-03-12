@@ -1,14 +1,18 @@
 <template>
   <div>
-    admin
-    <Nuxt />
+    <Navbar/>
+     <Nuxt/>
   </div>
 </template>
+<script>
+import Navbar  from "@/components/Navbar/Navbar";
 
-<style>
-html ,
-body{
-  background-color:red;
+export default {
+  components: {
+    Navbar,
+  }
+
 }
+</script>
 
-</style>
+
